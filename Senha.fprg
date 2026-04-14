@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:14:32 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODIxOzIwMjYtMDQtMTQ7IjA3OjU4OjU3ICI7Mjg2OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODIxOzIwMjYtMDQtMTQ7IjA4OjE0OjMyICI7MTsyOTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Senha" type="String" array="False" size=""/>
+            <output expression="&quot;informe a senha&quot;" newline="True"/>
+            <input variable="senha"/>
+            <if expression="senha =&quot;acb23&quot;">
+                <then>
+                    <output expression="&quot;senha correta&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;senha incorreta&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

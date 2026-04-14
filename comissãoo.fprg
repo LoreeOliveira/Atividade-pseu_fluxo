@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 03:38:42 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODIxOzIwMjYtMDQtMTM7IjAzOjI4OjU1ICI7Mjg1OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODIxOzIwMjYtMDQtMTM7IjAzOjM4OjQyICI7MTsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="comissao, produto" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o valor do produto&quot;" newline="True"/>
+            <input variable="produto"/>
+            <if expression="produto &lt;=5000">
+                <then>
+                    <assign variable="comissao" expression="produto * 0.05"/>
+                    <output expression="(&quot;sua comissao foi de &quot; &amp; comissao)" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="comissao" expression="produto * 0.10"/>
+                    <output expression="(&quot;sua comissao foi de &quot; &amp; comissao)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
